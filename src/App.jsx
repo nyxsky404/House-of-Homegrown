@@ -1,8 +1,12 @@
+import Navbar from "./components/layout/Navbar"
+import Footer from "./components/layout/Footer"
+
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Navbar/>
+      <Footer/>
+    </>
   )
 }
 
