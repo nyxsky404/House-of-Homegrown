@@ -1,9 +1,8 @@
 import Layout from "@/components/layout/Layout";
-import Hero from "@/components/sections/Hero";
-import Category from "@/components/sections/Category";
-import WhyChoose from "@/components/sections/WhyChoose";
-import FAQ from "@/components/sections/FAQ";
-import CTA from "@/components/sections/CTA";
+import Hero from "@/components/home/Hero";
+import Category from "@/components/home/Category";
+import WhyChoose from "@/components/home/WhyChoose";
+import CTA from "@/components/home/CTA";
 
 const Home = () => {
   return (
@@ -11,7 +10,6 @@ const Home = () => {
         <Hero/>
         <Category/>
         <WhyChoose/>
-        <FAQ/>
         <CTA/>
     </Layout>
   )
