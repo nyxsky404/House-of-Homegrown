@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Twitter } from "lucide-react";
+import { Instagram, Github } from "lucide-react";
 import { Link } from "react-router";
 
 const footerLinks = {
@@ -24,8 +24,7 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Github, href: "https://github.com", label: "Facebook" },
 ];
 
 const Footer = () => {
