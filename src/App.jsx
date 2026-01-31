@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router";
 import Home from "./pages/Home"
 import Shop from "./pages/Shop";
 import ProductDetail from "./pages/ProductDetail";
-import About from "./pages/About";
+import About from "./pages/OurStory";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import Legal from "./pages/Legal";
