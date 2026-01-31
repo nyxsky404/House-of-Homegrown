@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import Header from "@/components/sections/Header"
-import { categories, mockProducts } from "@/mockData/data"
+import { categories, mockProducts } from "@/mockProducts/data"
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button";
 import { Filter } from "lucide-react";

@@ -61,6 +61,34 @@ const legalContent = {
       "If you receive a damaged item, contact us within 48 hours with photos. We'll arrange a replacement or full refund.",
     ],
   },
+    artisans: {
+    title: "Artisan Partners",
+    description: [
+      "At House of Homegrown, our artisans are at the heart of everything we create. We collaborate with skilled craftspeople from across India, celebrating their heritage while bringing their timeless artistry to modern homes.",
+      "OUR COMMITMENT TO ARTISANS",
+      "We work directly with artisan communities to ensure fair wages, safe working conditions, and long-term opportunities. By eliminating unnecessary middlemen, we help artisans receive the recognition and compensation they truly deserve.",
+      "PRESERVING TRADITIONAL CRAFTS",
+      "India’s craft traditions are rich yet vulnerable. Through thoughtful partnerships, we help preserve techniques passed down through generations while supporting innovation that keeps these crafts relevant in today’s world.",
+      "EMPOWERING COMMUNITIES",
+      "Every purchase contributes to sustainable livelihoods for artisan families. We focus on building lasting relationships that promote financial independence, skill development, and community growth.",
+      "HANDMADE WITH PURPOSE",
+      "Our products carry the story of the hands that made them. Slight variations are a mark of authenticity, reflecting the care, patience, and craftsmanship behind each piece.",
+    ],
+  },
+  sustainability: {
+    title: "Sustainability",
+    description: [
+      "Sustainability is not a trend for us — it is a responsibility. At House of Homegrown, we design every product with respect for the planet, ensuring that beauty and functionality never come at the cost of the environment.",
+      "RESPONSIBLE MATERIALS",
+      "We prioritize natural, recycled, and ethically sourced materials wherever possible. From eco-friendly fabrics to low-impact dyes, our choices are guided by reducing environmental harm.",
+      "LOW-IMPACT PRODUCTION",
+      "Our production processes focus on minimizing waste, conserving water, and lowering carbon footprint. Small-batch manufacturing helps prevent overproduction while maintaining high quality.",
+      "PLASTIC-FREE PACKAGING",
+      "We are committed to reducing plastic use through recyclable, biodegradable, and minimal packaging solutions that protect both your products and the planet.",
+      "A GREENER FUTURE",
+      "Sustainability is a continuous journey. We actively seek better materials, smarter processes, and responsible partnerships to create a future where conscious consumption becomes the norm.",
+    ],
+  },
 };
 
 const Legal = () => {
