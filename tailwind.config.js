@@ -58,6 +58,30 @@ export default {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
+  			terracotta: {
+  				DEFAULT: 'hsl(var(--terracotta))',
+  				dark: 'hsl(var(--terracotta-dark))',
+  				light: 'hsl(var(--terracotta-light))'
+  			},
+  			sage: {
+  				DEFAULT: 'hsl(var(--sage))',
+  				dark: 'hsl(var(--sage-dark))',
+  				light: 'hsl(var(--sage-light))'
+  			},
+  			golden: {
+  				DEFAULT: 'hsl(var(--golden))',
+  				dark: 'hsl(var(--golden-dark))',
+  				light: 'hsl(var(--golden-light))'
+  			},
+  			linen: {
+  				DEFAULT: 'hsl(var(--linen))',
+  				dark: 'hsl(var(--linen-dark))'
+  			},
+  			charcoal: {
+  				DEFAULT: 'hsl(var(--charcoal))',
+  				light: 'hsl(var(--charcoal-light))'
+  			},
+  			cream: 'hsl(var(--cream))',
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',
