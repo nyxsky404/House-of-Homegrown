@@ -7,6 +7,7 @@ import { Filter } from "lucide-react";
 import { Link } from "react-router";
 
 //Todo: add pagination
+// Todo: add price filter
 
 const Shop = () => {
     const [activeCategory, setActiveCategory] = useState("all")

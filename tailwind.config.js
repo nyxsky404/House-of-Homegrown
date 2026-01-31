@@ -7,6 +7,18 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			heading: ["Cormorant Garamond", "serif"],
+			body: ["DM Sans", "sans-serif"],
+		},
+		fontSize: {
+			"display-lg": ["4.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
+			"display": ["3.5rem", { lineHeight: "1.15", letterSpacing: "-0.02em" }],
+			"display-sm": ["2.5rem", { lineHeight: "1.2", letterSpacing: "-0.01em" }],
+			"heading-lg": ["2rem", { lineHeight: "1.25" }],
+			"heading": ["1.5rem", { lineHeight: "1.3" }],
+			"heading-sm": ["1.25rem", { lineHeight: "1.4" }],
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
