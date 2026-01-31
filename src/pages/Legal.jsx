@@ -73,12 +73,20 @@ const Legal = () => {
 
   return (
     <Layout>
-        <section>
-            <div>
-                <h1>{content.title}</h1>
+        <section className="py-16 lg:py-24 bg-background">
+            <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
+                <h1 className="font-heading text-3xl lg:text-display-sm font-semibold text-foreground mb-6">{content.title}</h1>
                 {content.description.map((item, idx)=>{
                     const isHeading = item === item.toUpperCase()
-                    return isHeading? (<h2 key={idx}>{item}</h2>): (<p key={idx}>{item}</p>)
+                    return isHeading? (
+                    <h2 
+                      key={idx} 
+                      className=" font-heading text-2xl font-semibold text-foreground mt-8 mb-4">{item}</h2>)
+                      : 
+                      (<p 
+                        key={idx}
+                        className="text-muted-foreground mb-4 leading-relaxed"
+                        >{item}</p>)
                     })}
             </div>
         </section>

@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import Header from "@/components/sections/Header"
+import Template from "@/components/sections/Template";
 import { Leaf, Heart, Users, Globe } from "lucide-react";
 
 const values = [
@@ -30,7 +31,7 @@ const values = [
 ];
 
 
-
+// Todo: add timeline section
 const timeline = [
   {
     year: "2020",
@@ -90,23 +91,7 @@ const About = () => {
       </section>
 
       <section className="py-16 lg:py-24 bg-muted">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-
-            <h2 className="font-heading text-3xl lg:text-display-sm font-semibold text-foreground mb-12">
-              What We Stand For
-            </h2>
-
-          <div>
-            {values.map((item, idx)=>
-              <div key={idx} >
-                  <h2 className=" font-heading text-2xl font-semibold text-foreground mt-8 mb-4">{item.title}</h2>
-                  <p className="text-muted-foreground mb-4 leading-relaxed">{item.description}</p>
-              </div>
-                )}
-          </div>
-        </div>
-        </div>
+        <Template title="What We Stand For" content={values}/>
       </section>
 
 
