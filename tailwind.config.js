@@ -7,18 +7,57 @@ export default {
   ],
   theme: {
   	extend: {
-		fontFamily: {
-			heading: ["Cormorant Garamond", "serif"],
-			body: ["DM Sans", "sans-serif"],
-		},
-		fontSize: {
-			"display-lg": ["4.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
-			"display": ["3.5rem", { lineHeight: "1.15", letterSpacing: "-0.02em" }],
-			"display-sm": ["2.5rem", { lineHeight: "1.2", letterSpacing: "-0.01em" }],
-			"heading-lg": ["2rem", { lineHeight: "1.25" }],
-			"heading": ["1.5rem", { lineHeight: "1.3" }],
-			"heading-sm": ["1.25rem", { lineHeight: "1.4" }],
-		},
+  		fontFamily: {
+  			heading: [
+  				'Cormorant Garamond',
+  				'serif'
+  			],
+  			body: [
+  				'DM Sans',
+  				'sans-serif'
+  			]
+  		},
+  		fontSize: {
+  			'display-lg': [
+  				'4.5rem',
+  				{
+  					lineHeight: '1.1',
+  					letterSpacing: '-0.02em'
+  				}
+  			],
+  			'display': [
+  				'3.5rem',
+  				{
+  					lineHeight: '1.15',
+  					letterSpacing: '-0.02em'
+  				}
+  			],
+  			'display-sm': [
+  				'2.5rem',
+  				{
+  					lineHeight: '1.2',
+  					letterSpacing: '-0.01em'
+  				}
+  			],
+  			'heading-lg': [
+  				'2rem',
+  				{
+  					lineHeight: '1.25'
+  				}
+  			],
+  			'heading': [
+  				'1.5rem',
+  				{
+  					lineHeight: '1.3'
+  				}
+  			],
+  			'heading-sm': [
+  				'1.25rem',
+  				{
+  					lineHeight: '1.4'
+  				}
+  			]
+  		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -89,6 +128,28 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
   		}
   	}
   },

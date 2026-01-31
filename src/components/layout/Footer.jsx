@@ -11,7 +11,7 @@ const footerLinks = {
   company: [
     { label: "Our Story", href: "/about" },
     { label: "Artisan Partners", href: "/artisans" },
-    { label: "Sustainability", href: "/sustainability" },
+    { label: "Questions ?", href: "/faq" },
     { label: "Contact Us", href: "/contact" },
   ],
   legal: [
