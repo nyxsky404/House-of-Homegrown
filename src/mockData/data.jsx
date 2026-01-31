@@ -5,7 +5,6 @@ import categoryMakan from "@/assets/category-makan.jpg";
 
 export const categories = [
   { id: "all", label: "All Products" },
-  { id: "new", label: "New Arrivals" },
   { id: "roti", label: "Roti (Wellness)" },
   { id: "kapda", label: "Kapda (Textiles)" },
   { id: "makan", label: "Makan (Home)" },
