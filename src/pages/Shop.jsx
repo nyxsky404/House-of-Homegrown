@@ -32,6 +32,11 @@ const Shop = () => {
     const priceFiltered = mockProducts.filter((item)=> item.price >= priceRange.min && item.price <= priceRange.max)
 
       const formatPrice = (price) => {
+
+        if (!price){
+            return
+        }
+
         return new Intl.NumberFormat("en-IN", {
         style: "currency",
         currency: "INR",
@@ -101,7 +106,7 @@ const Shop = () => {
                                             {formatPrice(item.price)}
                                         </span>
                                         <span className="text-sm text-muted-foreground line-through">
-                                            {formatPrice(item.price)}
+                                            {formatPrice(item.originalPrice)}
                                         </span>
                                     </div>
                                 </div>
