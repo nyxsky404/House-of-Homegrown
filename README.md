@@ -1,4 +1,4 @@
-# 🏛️ House of Homegrown
+# <img src="public/logo.png" alt="House of Homegrown Logo" width="30" style="vertical-align: middle;"/> House of Homegrown
 
 > **Rooted in India** — A modern D2C e-commerce platform celebrating India's artisanal heritage through sustainable, handcrafted treasures.
 
