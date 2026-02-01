@@ -36,9 +36,9 @@ const Contact = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex justify-center">
             <div>
-                <h2 className="font-heading text-2xl font-semibold text-foreground mb-6">
+                {/* <h2 className="font-heading text-3xl font-semibold text-foreground mb-6">
                   Contact Information
-                </h2>
+                </h2> */}
                 <div className="space-y-6">
                   {contactInfo.map((item) => (
                     <div key={item.title} className="flex gap-4 ">
@@ -46,11 +46,11 @@ const Contact = () => {
                         <item.icon className="w-5 h-5 text-primary" />
                       </div>
                       <div>
-                        <h3 className="font-medium text-foreground">
+                        <h2 className="font-medium text-foreground text-2xl">
                           {item.title}
-                        </h3>
+                        </h2>
                         {item.details.map((detail, i) => (
-                          <p key={i} className="text-muted-foreground text-sm">
+                          <p key={i} className="text-muted-foreground text-xl">
                             {detail}
                           </p>
                         ))}
