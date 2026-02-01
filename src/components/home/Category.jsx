@@ -62,7 +62,7 @@ const Category = () => {
                 />
                 
                 {/* Overlay */}
-                <div className="absolute inset-0 category-card-overlay opacity-60 group-hover:opacity-70 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition-all duration-300" />
                 
                 {/* Content */}
                 <div className="absolute inset-0 p-6 lg:p-8 flex flex-col justify-end">
